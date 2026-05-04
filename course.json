@@ -1,0 +1,194 @@
+{
+  "college": "sfcollege",
+  "instructor": "dan-sullivan",
+  "courseNumber": "COP 2535",
+  "courseTitle": "Data Structures",
+  "units": 3,
+  "coverImage": "https://uid100.github.io/edu-core/images/programmer.jpg",
+  "description": [
+    "<em>(as it appears in the approved College Course Outline)",
+    "This course will focus on the design and analysis of data structures and the use of algorithms.",
+    "Through the introduction of the most widely used data structures employed in solving commonly encountered problems, such as linked lists, binary trees, queues, and stacks, students will learn different ways to organize data for easy access and efficient manipulation. ",
+    "Algorithms to solve classic problems, such as searching, sorting, hashing, and graph algorithms will also be presented.",
+    "This course assumes the student has a basic understanding of object-oriented programming in the C++ programming language."
+  ],
+  "prerequisites": "Introduction to Programming (COP 2000), Object-Oriented Programming 1&2 (COP 2551 & 2552) each with a grade of C or better",
+  "defaultSection": "sp2026",
+  "contact": {
+    "instructorEmail": "daniel.sullivan@sfcollege.edu",
+    "officeHours": {
+      "location": "Remote",
+      "schedule": "weekly Wed 12:00P - 2:00P EST",
+      "label": "Wed 12P - 2P",
+      "zoomLink": "https://sfcollege.zoom.us/j/92446820828?pwd=NHNrYlNaZTBwUXk3Zy9BWnEzYzEydz09"
+    },
+    "discordLink": {
+      "label": "Discord: Code Bytes",
+      "url": "https://discord.gg/MpHjV4qgxZ"
+    },
+    "about": "preferred method of contact is via email. I will respond to emails within 24 hours on weekdays. Published office hours are times when I will be available on Zoom for real-time communication. If you need to meet at a different time, please email me to schedule an appointment.\nDiscord channels are also available for anytime communication with me and your classmates."
+  },
+  "outcomes": "outcomes/clo.json",
+  "objectives": "outcomes/slo.json",
+  "textbook": "materials/textbook.json",
+  "content": {
+    "modules": {
+      "01": {
+        "title": "Module 01 - Primitive Data Types",
+        "pages": {
+          "overview": { "title": "Module Overview", "type": "content", "source": "content/module1.html" },
+          "the-cloud": { "title": "What is the Cloud?", "type": "content", "source": "content/01-the-cloud.html" },
+          "ack": { "title": "Acknowledgement", "type": "quiz", "source": "content/01-syllabus-acknowledgement.html" },
+          "intro": { "title": "About me", "type": "discussion", "source": "content/01-intro.html" },
+          "end": { "title": "End Module 1: The Cloud, Architecture, and Context", "type": "content", "source": "content/end-module.html"}
+        }
+      },
+      "02": {
+        "title": "Module 02 - Abstract Data Types",
+        "pages": {
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module2.html" },
+          "cloud-computing": { "title": "What is Cloud Computing?", "type": "content", "source": "/content/02-cloud-computing.html" },
+          "providers": { "title": "Disc: Cloud Service Providers", "type": "discussion", "source": "content/02-providers.html" },
+          "end": { "title": "End of Module 2: Cloud Computing and Cloud Services", "type": "content", "source": "/content/end-module.html"}
+        }
+      },
+      "03": {
+        "title": "Module 03 - Searching and Sorting",
+        "pages": {
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module3.html" },
+          "using-cloud": { "title": "Getting Started Using the Cloud", "type": "content", "source": "/content/03-using-cloud.html" },
+          "subscriptions": { "title": "Cloud Service Provider Subscriptions", "type": "content", "source": "/content/03-subscriptions.html" },
+          "end": { "title": "End of Module 3: Getting Started Using the Cloud", "type": "content", "source": "/content/end-module.html"}
+        },
+        "lab": {
+          "title": "Lab 03 - Setting Up Cloud Service Provider Accounts",
+          "taskListUrl": "https://uid100.github.io/sfcollege-cis4083/content/ex01-subscriptions/todo.json",
+          "fragmentsBase": "https://uid100.github.io/sfcollege-cis4083/content/ex01-subscriptions/"
+        }
+      },
+      "04": {
+        "title": "Module 04 - Algorithm Complexity",
+        "pages": {
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module4.html" },
+          "deployment-types": { "title": "Cloud Deployment Types and Models", "type": "content", "source": "/content/04-deployment-types.html" },
+          "disc-accts": { "title": "Discussion: Cloud Accounts and Billing", "type": "discussion", "source": "/content/04-disc-accounts.html" },
+          "end": { "title": "End of Module 4: Cloud Deployment Types and Models", "type": "content", "source": "/content/end-module.html"}
+        },
+        "lab": {
+          "title": "Lab 04 - Deploying a Web Application to the Cloud",
+          "taskListUrl": "https://uid100.github.io/sfcollege-cis4083/content/ex02-webapps/todo.json",
+          "fragmentsBase": "https://uid100.github.io/sfcollege-cis4083/content/ex02-webapps/"
+        }
+      },
+      "05": {
+        "title": "Module 05 - Pointers",
+        "pages": {
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module5.html" },
+          "serverless": { "title": "Serverless Computing and Triggers", "type": "content", "source": "/content/05-serverless.html" },
+          "serverless-ex": { "title": "Create and Deploy Serverless Functions", "type": "exercise", "source": "/content/05-serverless-ex.html" },
+          "end": { "title": "End of Module 5: Serverless Computing and Triggers", "type": "content", "source": "/content/end-module.html"}
+        }
+      },
+      "06": {
+        "title": "Module 06 - Structs and Objects",
+        "pages": {
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module6.html" },
+          "vm": { "title": "Virtualization and Collaboration", "type": "content", "source": "/content/06-virtualization.html" },
+          "vpn": { "title": "Virtual Private Networks (VPNs)", "type": "content", "source": "/content/06-vpn.html" },
+          "collab": { "title": "Collaboration in the Cloud", "type": "content", "source": "/content/06-collaboration.html" },
+          "vm-ex": { "title": "Create and Manage Virtual Machines", "type": "exercise", "source": "/content/06-vm-ex.html" },
+          "end": { "title": "End of Module 6: Virtualization and Collaboration", "type": "content", "source": "/content/end-module.html"}
+        }
+      },
+      "07": {
+        "title": "Module 07 - Liked Lists",
+        "pages": {
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module7.html" },
+          "scaling": { "title": "Scaling Cloud Resources", "type": "content", "source": "/content/07-scaling.html" },
+          "nosql": { "title": "SQL and NoSQL Databases", "type": "content", "source": "/content/07-nosql.html" },
+          "case-studies": { "title": "SQL and NoSQL Databases", "type": "content", "source": "/content/07-disc-case-studies.html" },
+          "end": { "title": "End of Module 7: DBaaS and Scalability", "type": "content", "source": "/content/end-module.html"}
+        },
+        "lab": {
+          "title": "Lab 07 - Deploying and Managing a Database in the Cloud",
+          "taskListUrl": "https://uid100.github.io/sfcollege-cis4083/content/ex03-dbaas/todo.json",
+          "fragmentsBase": "https://uid100.github.io/sfcollege-cis4083/content/ex03-dbaas/"
+        }
+      },
+      "08": {
+        "title": "Module 08 - Stacks and Queues",
+        "pages": {
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module8.html" },
+          "identity": { "title": "Identity", "type": "content", "source": "/content/08-identity.html" },
+          "user-auth": { "title": "User Authentication", "type": "content", "source": "/content/08-user-auth.html" },
+          "end": { "title": "End of Module 8: Authentication, Authorization, and Security", "type": "content", "source": "/content/end-module.html"}
+        }
+      },
+      "09": {
+        "title": "Module 09 - Binary Trees",
+        "pages": {
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module9.html" },
+          "layers": { "title": "Layers, Tiers, and Services", "type": "content", "source": "/content/09-layers.html" },
+          "n-tier": { "title": "Layers, Tiers, and Services", "type": "content", "source": "/content/09-n-tier.html" },
+          "end": { "title": "End of Module 9: N-Tier Architecture and Cloud Design Patterns", "type": "content", "source": "/content/end-module.html"}
+        }
+      },
+      "10": {
+        "title": "Module 10 - Hashes",
+        "pages": {
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module10.html" },
+          "forecast": { "title": "Module Overview", "type": "content", "source": "/content/10-forecast.html" },
+          "migrating": { "title": "Module Overview", "type": "content", "source": "/content/10-migrating.html" },
+          "case-studies": { "title": "Module Overview", "type": "content", "source": "/content/10-case-studies.html" },
+          "end": { "title": "End of Module 10: Cloud Migration and Management", "type": "content", "source": "/content/end-module.html"}
+        }
+      },
+      "11": {
+        "title": "Module 11 - Graphing",
+        "pages": {
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module11.html" },
+          "security": { "title": "Cloud Computing: Security Concerns", "type": "content", "source": "/content/11-security.html" },
+          "ahead": { "title": "Module Overview", "type": "content", "source": "/content/11-ahead.html" },
+          "end": { "title": "End of Module 11: The Future of Cloud Computing", "type": "content", "source": "/content/end-module.html"}
+        }
+      },
+      "12": {
+        "title": "Wrap-up",
+        "pages": {
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module12.html" },
+          "end": { "title": "Course Wrap-up", "type": "content", "source": "/content/end-module.html" }
+        }
+      },
+      "99": {
+        "title": "Module 99 - Additional Resources",
+        "pages": {
+          "late-policy": { 
+            "title": "Late Policy", 
+            "type": "page", 
+            "resource": "https://uid100.github.io/edu-core/shared/policies/late-policy.html",
+            "usage": "https://uid100.github.io/edu-core/templates/topic.html?course=sfcollege-cis4083&module=99-resources&page=late-policy"
+          },
+          "online": { 
+            "title": "Online Classes", 
+            "type": "page", 
+            "resource": 
+            "https://uid100.github.io/edu-core/shared/policies/online-classes.html",
+            "usage": "https://uid100.github.io/edu-core/templates/topic.html?course=sfcollege-cis4083&module=99-resources&page=online"
+          }
+        }
+      }
+    }
+  },
+  "templates": {
+    "syllabus": "core:syllabus",
+    "syllabus(override)": "syllabus/syllabus.html",
+    "policies": "policies/policies.html"
+  },
+  "materials": {
+    "required": "materials/required.html",
+    "recommended": "materials/recommended.html"
+  },
+  "gradingDetails": "grading/grading-details.html",
+  "accommodations": "accommodations/accommodations.html",
+  "topicOutline": "outline/outline.html"
+}
