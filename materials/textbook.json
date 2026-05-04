@@ -1,0 +1,355 @@
+{
+  "title": "Starting out with C++ Early Objects",
+  "author": "Tony Gaddis",
+  "edition": "10th Ed",
+  "isbn": "978-0-13-523500-3",
+  "isbn13": "8220144564561",
+  "imagePath": "/images/gaddis-cpp-10ed.jpg",
+  "editions": {
+    "9th Ed. BRIEF": {
+      "chapters": {
+          "Chapter 1": "Introduction to Computers and Programming",
+          "Chapter 2": "Introduction to C++",
+          "Chapter 3": "Expressions and Interactivity",
+          "Chapter 4": "Making Decisions",
+          "Chapter 5": "Loops and Files",
+          "Chapter 6": "Functions",
+          "Chapter 7": "Arrays and Vectors",
+          "Chapter 8": "Searching and Sorting Arrays",
+          "Chapter 9": "Pointers",
+          "Chapter 10": "Characters, C-Strings, and More",
+          "Chapter 11": "Structured Data",
+          "Chapter 12": "Advanced File Operations",
+          "Chapter 13": "Introduction to Classes",
+          "Chapter 14": "More About Classes",
+          "Chapter 15": "Inheritance, polymorphism, and Virtual Functions"
+      }
+    },
+    "10th Ed. FULL": {
+      "chapters": {
+          "Chapter 1": {
+            "title": "Introduction to Computers and Programming",
+            "headings": [
+              {"1.1": "Why Program?"},
+              {"1.2": "Computer Systems: Hardware and Software"},
+              {"1.3": "Programs and Programming Languages"},
+              {"1.4": "What is a Program Made of?"},
+              {"1.5": "Input, Processing, and Output"},
+              {"1.6": "The Programming Process"},
+              {"1.7": "Tying It All Together: Hi! It's Me"}
+            ]
+          },
+          "Chapter 2": {
+            "title": "Introduction to C++",
+            "headings": [
+              {"2.1": "The Parts of a C++ Program"},
+              {"2.2": "The cout Object"},
+              {"2.3": "The #include Directive"},
+              {"2.4": "Variables and the Assignment Statement"},
+              {"2.5": "Literals"},
+              {"2.6": "Identifiers"},
+              {"2.7": "Integer Data Types"},
+              {"2.8": "Floating-Point Data Types"},
+              {"2.9": "The char Data Type"},
+              {"2.10": "The C++ string Class"},
+              {"2.11": "The bool Data Type"},
+              {"2.12": "Determining the size of a Data Type"},
+              {"2.13": "More on Variable Assignments and Initialization"},
+              {"2.14": "Scope"},
+              {"2.15": "Arithmetic Operators"},
+              {"2.16": "Comments"},
+              {"2.17": "Programming Style"},
+              {"2.18": "Tying It All Together: Smile!"}
+            ]
+          },
+          "Chapter 3": {
+            "title": "Expressions and Interactivity",
+            "headings": [
+              {"3.1": "3.1 The cin Object"},
+              {"3.2": "Mathematical Expressions"},
+              {"3.3": "Data Type Conversion and Type Casting"},
+              {"3.4": "Overflow and Underflow"},
+              {"3.5": "Named Constants"},
+              {"3.6": "Multiple and Combined Assignment"},
+              {"3.7": "Formatting Output"},
+              {"3.8": "Working with Characters and Strings"},
+              {"3.9": "More Mathematical Library Functions"},
+              {"3.10": "Random Numbers"},
+              {"3.11": "Focus on Debugging: Hand Tracing a Program"},
+              {"3.12": "Green Fields Landscaping Case Study—Part 1"},
+              {"3.13": "Tying It All Together: Word Game"}
+            ]
+          },
+          "Chapter 4": {
+            "title": "Making Decisions",
+            "headings": [
+              {"4.1": "Relational Operators"},
+              {"4.2": "The if Statement"},
+              {"4.3": "The if/else Statement"},
+              {"4.4": "The if/else if Statement"},
+              {"4.5": "Menu-Driven Programs"},
+              {"4.6": "Nested if Statements"},
+              {"4.7": "Logical Operators"},
+              {"4.8": "Validating User Input"},
+              {"4.9": "More about Blocks and Scope"},
+              {"4.10": "More about Characters and Strings"},
+              {"4.11": "The Conditional Operator"},
+              {"4.12": "The switch Statement"},
+              {"4.13": "Enumerated Data Types"},
+              {"4.14": "Focus on Testing and Debugging: Validating Output Results"},
+              {"4.15": "Green Fields Landscaping Case Study—Part 2"},
+              {"4.16": "Tying It All Together: Fortune Teller"}
+            ]
+          },
+          "Chapter 5": {
+            "title": "Looping",
+            "headings": [
+              {"5.1": "Introduction to Loops: The while Loop"},
+              {"5.2": "Using the while Loop for Input Validation"},
+              {"5.3": "The Increment and Decrement Operators"},
+              {"5.4": "Counters"},
+              {"5.5": "Keeping a Running Total"},
+              {"5.6": "Sentinels"},
+              {"5.7": "The do-while Loop"},
+              {"5.8": "The for Loop"},
+              {"5.9": "Deciding Which Loop to Use"},
+              {"5.10": "Nested Loops"},
+              {"5.11": "Breaking Out of a Loop"},
+              {"5.12": "Using Files for Data Storage"},
+              {"5.13": "Focus on Testing and Debugging: Creating Good Test Data"},
+              {"5.14": "Central Mountain Credit Union Case Study"},
+              {"5.15": "Tying It All Together: What a Colorful World"}
+            ]
+          },
+          "Chapter 6": {
+            "title": "Functions",
+            "headings": [
+              {"6.1": "Modular Programming"},
+              {"6.2": "Defining and Calling Functions"},
+              {"6.3": "Function Prototypes"},
+              {"6.4": "Sending Data into a Function"},
+              {"6.5": "Passing Data by Value"},
+              {"6.6": "The return Statement"},
+              {"6.7": "Returning a Value from a Function"},
+              {"6.8": "Returning a Boolean Value"},
+              {"6.9": "Using Functions in a Menu-Driven Program"},
+              {"6.10": "Local and Global Variables"},
+              {"6.11": "Static Local Variables"},
+              {"6.12": "Default Arguments"},
+              {"6.13": "Using Reference Variables as Parameters"},
+              {"6.14": "Overloading Functions"},
+              {"6.15": "The exit() Function"},
+              {"6.16": "Stubs and Drivers"},
+              {"6.17": "Little Lotto Case Study"},
+              {"6.18": "Tying It All Together: Glowing Jack-o-lantern"}
+            ]
+          },
+          "Chapter 7": {
+            "title": "Introduction to Classes and Objects",
+            "headings": [
+              {"7.1": "Abstract Data Types" },
+              {"7.2": "Object-Oriented Programming"},
+              {"7.3": "Introduction to Classes"},
+              {"7.4": "Creating and Using Objects"},
+              {"7.5": "Defining Member Functions"},
+              {"7.6": "Constructors"},
+              {"7.7": "Destructors"},
+              {"7.8": "Private Member Functions"},
+              {"7.9": "Passing Objects to Functions"},
+              {"7.10": "Object Composition"},
+              {"7.11": "Separating Class Specification, Implementation, and Client Code"},
+              {"7.12": "Structures"},
+              {"7.13": "More about Enumerated Data Types"},
+              {"7.14": "Home Software Company OOP Case Study"},
+              {"7.15": "Introduction to Object-Oriented Analysis and Design"},
+              {"7.16": "Screen Control"},
+              {"7.17": "Tying It All Together: Yoyo Animation"}
+            ]
+          },
+          "Chapter 8": {
+            "title": "Arrays and Vectors",
+            "headings": [
+              {"8.1": "Arrays Hold Multiple Values"},
+              {"8.2": "Accessing Array Elements"},
+              {"8.3": "Inputting and Displaying Array Data"},
+              {"8.4": "Array Initialization"},
+              {"8.5": "The Range-Based for Loop"},
+              {"8.6": "Processing Array Contents"},
+              {"8.7": "Using Parallel Arrays"},
+              {"8.8": "The typedef Statement"},
+              {"8.9": "Arrays as Function Arguments"},
+              {"8.10": "Two-Dimensional Arrays"},
+              {"8.11": "Arrays with Three or More Dimensions"},
+              {"8.12": "Introduction to the STL vector"},
+              {"8.13": "Arrays of Objects"},
+              {"8.14": "National Commerce Bank Case Study"},
+              {"8.15": "Tying It All Together: Rock, Paper, Scissors"}
+            ]
+          },
+          "Chapter 9": {
+            "title": "Searching, Sorting and Algorithm Analysis",
+            "headings": [
+              {"9.1": "Introduction to Search Algorithms"},
+              {"9.2": "Searching an Array of Objects"},
+              {"9.3": "Introduction to Sorting Algorithms"},
+              {"9.4": "Sorting an Array of Objects"},
+              {"9.5": "Sorting and Searching Vectors"},
+              {"9.6": "Introduction to Analysis of Algorithms"},
+              {"9.7": "Case Studies"},
+              {"9.8": "Tying It All Together: Secret Messages"}
+            ]
+          },
+          "Chapter 10": {
+            "title": "Pointers",
+            "headings": [
+              {"10.1": "Pointers and the Address Operator"},
+              {"10.2": "Pointer Variables"},
+              {"10.3": "The Relationship Between Arrays and Pointers"},
+              {"10.4": "Pointer Arithmetic"},
+              {"10.5": "Initializing Pointers"},
+              {"10.6": "Comparing Pointers"},
+              {"10.7": "Pointers as Function Parameters"},
+              {"10.8": "Pointers to Constants and Constant Pointers"},
+              {"10.9": "Dynamic Memory Allocation"},
+              {"10.10": "Returning Pointers from Functions"},
+              {"10.11": "Pointers to Class Objects and Structures"},
+              {"10.12": "Selecting Members of Objects"},
+              {"10.13": "Smart Pointers"},
+              {"10.14": "Tying It All Together: Pardon Me, Do You Have the Time?"}
+            ]
+          },
+          "Chapter 11": {
+            "title": "More about Classes and Object-Oriented Programming",
+            "headings": [
+              {"11.1": "The this Pointer and Constant Member Functions"},
+              {"11.2": "Static Members"},
+              {"11.3": "Friends of Classes"},
+              {"11.4": "Memberwise Assignment"},
+              {"11.5": "Copy Constructors"},
+              {"11.6": "Operator Overloading"},
+              {"11.7": "Rvalue References and Move Operations"},
+              {"11.8": "Type Conversion Operators"},
+              {"11.9": "Convert Constructors"},
+              {"11.10": "Aggregation and Composition"},
+              {"11.11": "Inheritance"},
+              {"11.12": "Protected Members and Class Access"},
+              {"11.13": "Constructors, Destructors, and Inheritance"},
+              {"11.14": "Overriding Base Class Functions"},
+              {"11.15": "Tying It All Together: Putting Data on the World Wide Web"}
+            ]
+          },
+          "Chapter 12": {
+            "title": "More on C-Strings and the string Class",
+            "headings": [
+              {"12.1": "Character Testing"},
+              {"12.2": "Character Case Conversion"},
+              {"12.3": "C-Strings"},
+              {"12.4": "Library Functions for Working with C-Strings"},
+              {"12.5": "Conversions Between Numbers and Strings"},
+              {"12.6": "Writing Your Own C-String Handling Functions"},
+              {"12.7": "More about the C++ string Class"},
+              {"12.8": "Advanced Software Enterprises Case Study"},
+              {"12.9": "Tying It All Together: Program Execution Environments"}
+            ]
+          },
+          "Chapter 13": {
+            "title": "Advanced File and I/O Operations",
+            "headings": [
+              {"13.1": "Input and Output Streams"},
+              {"13.2": "More Detailed Error Testing"},
+              {"13.3": "Member Functions for Reading and Writing Files"},
+              {"13.4": "Binary Files"},
+              {"13.5": "Creating Records with Structures"},
+              {"13.6": "Random-Access Files"},
+              {"13.7": "Opening a File for Both Input and Output"},
+              {"13.8": "Online Friendship Connections Case Study"},
+              {"13.9": "Tying It All Together: File Merging and Color-Coded HTML"}
+            ]
+          },
+          "Chapter 14": {
+            "title": "Recursion",
+            "headings": [
+              {"14.1": "Introduction to Recursion"},
+              {"14.2": "The Recursive Factorial Function"},
+              {"14.3": "The Recursive gcd Function"},
+              {"14.4": "Solving Recursively Defined Problems"},
+              {"14.5": "A Recursive Binary Search Function"},
+              {"14.6": "The QuickSort Algorithm"},
+              {"14.7": "The Towers of Hanoi"},
+              {"14.8": "Exhaustive and Enumeration Algorithms"},
+              {"14.9": "Recursion versus Iteration"},
+              {"14.10": "Tying It All Together: Infix and Prefix Expressions"}
+            ]
+          },
+          "Chapter 15": {
+            "title": "Polymorphism, and Virtual Functions",
+            "headings": [
+              {"15.1": "Type Compatibility in Inheritance Hierarchies"},
+              {"15.2": "Polymorphism and Virtual Member Functions"},
+              {"15.3": "Abstract Base Classes and Pure Virtual Functions"},
+              {"15.4": "Composition versus Inheritance"},
+              {"15.5": "Secure Encryption Systems, Inc., Case Study"},
+              {"15.6": "Tying It All Together: Let's Move It"}
+            ]
+          },
+          "Chapter 16": {
+            "title": "Exceptions and Templates",
+            "headings": [
+              {"16.1": "Exceptions"},
+              {"16.2": "Function Templates"},
+              {"16.3": "Class Templates"},
+              {"16.4": "Class Templates and Inheritance"}
+            ]
+          },
+          "Chapter 17": {
+            "title": "The Standard Template Library",
+            "headings": [
+                {"17.1": "Introduction to the Standard Template Library"},
+                {"17.2": "STL Container and Iterator Fundamentals"},
+                {"17.3": "The vector Class"},
+                {"17.4": "The map, multimap, and unordered_map Classes"},
+                {"17.5": "The set, multiset, and unordered_set Classes"},
+                {"17.6": "Algorithms"},
+                {"17.7": "Introduction to Function Objects and Lambda Expressions"},
+                {"17.8": "Tying It All Together: Word Transformers Game"}
+            ]
+          },
+          "Chapter 18": {
+            "title": "Linked Lists",
+            "headings": [
+                {"18.1": "Introduction to Linked Lists"},
+                {"18.2": "Linked List Operations"},
+                {"18.3": "A Linked List Template"},
+                {"18.4": "Recursive Linked List Operations"},
+                {"18.5": "Variations of the Linked List"},
+                {"18.6": "The STL list and forward_list Containers"},
+                {"18.7": "Reliable Software Systems, Inc., Case Study"},
+                {"18.8": "Tying It All Together: More on Graphics and Animation"}
+            ]
+          },    
+          "Chapter 19": {
+            "title": "Stacks and Queues",
+            "headings": [
+                {"19.1": "Introduction to Stacks"},
+                {"19.2": "Dynamic Stacks"},
+                {"19.3": "The STL stack Container"},
+                {"19.4": "Introduction to Queues"},
+                {"19.5": "Dynamic Queues"},
+                {"19.6": "The STL deque and queue Containers"},
+                {"19.7": "Eliminating Recursion"},
+                {"19.8": "Tying It All Together: Converting Postfix Expressions to Infix"}
+            ]
+          },
+          "Chapter 20": {
+            "title": "Binary Trees",
+            "headings": [
+                {"20.1": "Definition and Applications of Binary Trees"},
+                {"20.2": "Binary Search Tree Operations"},
+                {"20.3": "Template Considerations for Binary Search Trees"},
+                {"20.4": "Tying It All Together: Genealogy Trees"}
+            ]
+          } 
+      }
+    }
+  }
+}
