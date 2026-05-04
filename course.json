@@ -37,28 +37,21 @@
         "title": "Module 01 - Primitive Data Types",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "content/module1.html" },
-          "the-cloud": { "title": "What is the Cloud?", "type": "content", "source": "content/01-the-cloud.html" },
-          "ack": { "title": "Acknowledgement", "type": "quiz", "source": "content/01-syllabus-acknowledgement.html" },
-          "intro": { "title": "About me", "type": "discussion", "source": "content/01-intro.html" },
-          "end": { "title": "End Module 1: The Cloud, Architecture, and Context", "type": "content", "source": "content/end-module.html"}
+          "end": { "title": "End Module 1: Primitive Data Types", "type": "content", "source": "content/end-module.html"}
         }
       },
       "02": {
         "title": "Module 02 - Abstract Data Types",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/module2.html" },
-          "cloud-computing": { "title": "What is Cloud Computing?", "type": "content", "source": "/content/02-cloud-computing.html" },
-          "providers": { "title": "Disc: Cloud Service Providers", "type": "discussion", "source": "content/02-providers.html" },
-          "end": { "title": "End of Module 2: Cloud Computing and Cloud Services", "type": "content", "source": "/content/end-module.html"}
+          "end": { "title": "End of Module 2: Abstract Data Types", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "03": {
         "title": "Module 03 - Searching and Sorting",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/module3.html" },
-          "using-cloud": { "title": "Getting Started Using the Cloud", "type": "content", "source": "/content/03-using-cloud.html" },
-          "subscriptions": { "title": "Cloud Service Provider Subscriptions", "type": "content", "source": "/content/03-subscriptions.html" },
-          "end": { "title": "End of Module 3: Getting Started Using the Cloud", "type": "content", "source": "/content/end-module.html"}
+          "end": { "title": "End of Module 3: Searching and Sorting", "type": "content", "source": "/content/end-module.html"}
         },
         "lab": {
           "title": "Lab 03 - Setting Up Cloud Service Provider Accounts",
@@ -70,9 +63,7 @@
         "title": "Module 04 - Algorithm Complexity",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/module4.html" },
-          "deployment-types": { "title": "Cloud Deployment Types and Models", "type": "content", "source": "/content/04-deployment-types.html" },
-          "disc-accts": { "title": "Discussion: Cloud Accounts and Billing", "type": "discussion", "source": "/content/04-disc-accounts.html" },
-          "end": { "title": "End of Module 4: Cloud Deployment Types and Models", "type": "content", "source": "/content/end-module.html"}
+          "end": { "title": "End of Module 4: Algorithm Complexity", "type": "content", "source": "/content/end-module.html"}
         },
         "lab": {
           "title": "Lab 04 - Deploying a Web Application to the Cloud",
@@ -84,30 +75,21 @@
         "title": "Module 05 - Pointers",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/module5.html" },
-          "serverless": { "title": "Serverless Computing and Triggers", "type": "content", "source": "/content/05-serverless.html" },
-          "serverless-ex": { "title": "Create and Deploy Serverless Functions", "type": "exercise", "source": "/content/05-serverless-ex.html" },
-          "end": { "title": "End of Module 5: Serverless Computing and Triggers", "type": "content", "source": "/content/end-module.html"}
+          "end": { "title": "End of Module 5: Pointers", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "06": {
         "title": "Module 06 - Structs and Objects",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/module6.html" },
-          "vm": { "title": "Virtualization and Collaboration", "type": "content", "source": "/content/06-virtualization.html" },
-          "vpn": { "title": "Virtual Private Networks (VPNs)", "type": "content", "source": "/content/06-vpn.html" },
-          "collab": { "title": "Collaboration in the Cloud", "type": "content", "source": "/content/06-collaboration.html" },
-          "vm-ex": { "title": "Create and Manage Virtual Machines", "type": "exercise", "source": "/content/06-vm-ex.html" },
-          "end": { "title": "End of Module 6: Virtualization and Collaboration", "type": "content", "source": "/content/end-module.html"}
+          "end": { "title": "End of Module 6: Structs and Objects", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "07": {
         "title": "Module 07 - Liked Lists",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/module7.html" },
-          "scaling": { "title": "Scaling Cloud Resources", "type": "content", "source": "/content/07-scaling.html" },
-          "nosql": { "title": "SQL and NoSQL Databases", "type": "content", "source": "/content/07-nosql.html" },
-          "case-studies": { "title": "SQL and NoSQL Databases", "type": "content", "source": "/content/07-disc-case-studies.html" },
-          "end": { "title": "End of Module 7: DBaaS and Scalability", "type": "content", "source": "/content/end-module.html"}
+          "end": { "title": "End of Module 7: Linked Lists", "type": "content", "source": "/content/end-module.html"}
         },
         "lab": {
           "title": "Lab 07 - Deploying and Managing a Database in the Cloud",
@@ -119,37 +101,28 @@
         "title": "Module 08 - Stacks and Queues",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/module8.html" },
-          "identity": { "title": "Identity", "type": "content", "source": "/content/08-identity.html" },
-          "user-auth": { "title": "User Authentication", "type": "content", "source": "/content/08-user-auth.html" },
-          "end": { "title": "End of Module 8: Authentication, Authorization, and Security", "type": "content", "source": "/content/end-module.html"}
+          "end": { "title": "End of Module 8: Stacks and Queues", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "09": {
         "title": "Module 09 - Binary Trees",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/module9.html" },
-          "layers": { "title": "Layers, Tiers, and Services", "type": "content", "source": "/content/09-layers.html" },
-          "n-tier": { "title": "Layers, Tiers, and Services", "type": "content", "source": "/content/09-n-tier.html" },
-          "end": { "title": "End of Module 9: N-Tier Architecture and Cloud Design Patterns", "type": "content", "source": "/content/end-module.html"}
+          "end": { "title": "End of Module 9: Binary Trees", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "10": {
         "title": "Module 10 - Hashes",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/module10.html" },
-          "forecast": { "title": "Module Overview", "type": "content", "source": "/content/10-forecast.html" },
-          "migrating": { "title": "Module Overview", "type": "content", "source": "/content/10-migrating.html" },
-          "case-studies": { "title": "Module Overview", "type": "content", "source": "/content/10-case-studies.html" },
-          "end": { "title": "End of Module 10: Cloud Migration and Management", "type": "content", "source": "/content/end-module.html"}
+          "end": { "title": "End of Module 10: Hashes", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "11": {
         "title": "Module 11 - Graphing",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/module11.html" },
-          "security": { "title": "Cloud Computing: Security Concerns", "type": "content", "source": "/content/11-security.html" },
-          "ahead": { "title": "Module Overview", "type": "content", "source": "/content/11-ahead.html" },
-          "end": { "title": "End of Module 11: The Future of Cloud Computing", "type": "content", "source": "/content/end-module.html"}
+          "end": { "title": "End of Module 11: Graphing", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "12": {
