@@ -38,6 +38,7 @@
         "pages": {
           "start": {"title": "PICK ME! PICK ME! ---- ( ***START HERE*** )","type": "content","source": "content/01/start.html"},
           "overview": { "title": "Module Overview", "type": "content", "source": "content/module1.html" },
+          "intro": {"title": "About me","type": "discussion","source": "content/01/intro.html"},
           "end": { "title": "End Module 1: Primitive Data Types", "type": "content", "source": "content/end-module.html"}
         }
       },
