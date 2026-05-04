@@ -1,0 +1,29 @@
+{ 
+  "canvas": {
+    "server": "https://courses.sfcollege.edu/",
+    "coursePath": "/courses/505292"
+  },
+  "sectionNumber": "COP2535_0M1_S26",
+  "courseId": "COP2535_0M1_S26",
+  "term": "Summer 2026",
+  "dates": {
+    "start": "2026-05-11",
+    "end": "2026-08-01",
+    "withdraw": "2026-05-18",
+    "classesEnd": "2026-08-01",
+    "finals": "2026-08-03",
+    "finalsEnd": "2026-08-04",
+    "gradesDue": "2026-08-06",
+    "gradesPosted": "2026-08-07",
+    "holidays": {
+      "MemorialDay": "2026-05-25",
+      "Juneteenth": "2026-06-19",
+      "IndependenceDay": "2026-07-04"
+    }
+  },
+  "schedule": {
+    "day": "Online",
+    "time": "",
+    "location": "Web"
+  }
+}
