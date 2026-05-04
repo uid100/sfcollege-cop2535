@@ -4,7 +4,7 @@
   "courseNumber": "COP 2535",
   "courseTitle": "Data Structures",
   "units": 3,
-  "coverImage": "https://uid100.github.io/edu-core/images/programmer.jpg",
+  "coverImage": "/images/programmer.jpg",
   "description": [
     "<em>(as it appears in the approved College Course Outline)",
     "This course will focus on the design and analysis of data structures and the use of algorithms.",
