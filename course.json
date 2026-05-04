@@ -13,7 +13,7 @@
     "This course assumes the student has a basic understanding of object-oriented programming in the C++ programming language."
   ],
   "prerequisites": "Introduction to Programming (COP 2000), Object-Oriented Programming 1&2 (COP 2551 & 2552) each with a grade of C or better",
-  "defaultSection": "sp2026",
+  "defaultSection": "su2026",
   "contact": {
     "instructorEmail": "daniel.sullivan@sfcollege.edu",
     "officeHours": {
