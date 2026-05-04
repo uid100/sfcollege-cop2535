@@ -1,0 +1,328 @@
+    <div id="content" style="padding: 20px;">
+        <h2>Let's Review</h2>
+        <p>Variables are an important concept in programming (maybe <em>the most</em> important!), as they allow programs to store and manipulate data dynamically.</p>
+        <p>By using variables, programmers can write code that is more flexible and adaptable to changing conditions, and they can avoid the need to hard-code values into their programs.</p>
+        <p class="boxed-paragraph">A <strong>variable</strong> is a named storage location in the computer's memory where a value can be stored and accessed later. The value of a variable can be changed (may "vary") throughout the execution of a program.</p>
+        <p>A variable can be given a name that describes what it represents. This name is used to refer to the value stored in the variable throughout the program. When a variable is created, it must be given a data type, which determines the type of data that can be stored in the variable (e.g., integer, string, boolean, etc.).</p>
+        <p>&nbsp;</p>
+        <h3>Variable</h3>
+        <ul>
+            <li>Reserved space in memory</li>
+            <li>Has a data type</li>
+            <li>May be given a name</li>
+            <li>May be assigned a value</li>
+        </ul>
+        <p>&nbsp;</p>
+        <p style="padding-left: 40px;">... because it has reserved space in memory</p>
+        <ul>
+            <li style="list-style-type: none; font-style: italic;">
+                <ul>
+                    <li>It's location will be known by the <em>system</em></li>
+                    <li>may be accessed quickly</li>
+                    <li>must not change (if it needs to be changed, a new variable will be created to replace the old one)</li>
+                </ul>
+            </li>
+        </ul>
+        <p>&nbsp;</p>
+        <p style="padding-left: 40px; font-style: italic;">... because it has a data type</p>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li>its size must be known</li>
+                    <li>it subscribes to a known set of rules and operations</li>
+                </ul>
+            </li>
+        </ul>
+        <p>&nbsp;</p>
+        <p style="padding-left: 40px; font-style: italic;">... because it can be given a name</p>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li>its value can be assigned and retrieved programmatically</li>
+                    <li>the name must be unique</li>
+                </ul>
+            </li>
+        </ul>
+        <p>&nbsp;</p>
+        <p style="padding-left: 40px; font-style: italic;">... because it can be assigned a value</p>
+        <ul>
+            <li style="list-style-type: none;">
+                <ul>
+                    <li>its value may be re-assigned</li>
+                </ul>
+            </li>
+        </ul>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+    </div>
+    <hr />
+    <div id="data-types" style="padding: 20px;">
+        <h3>Primitive Data Types</h3>
+        <p>The basic data types which other data types can be built.</p>
+        <h3>C++ <em>built-in</em> variable types</h3>
+        <p>The C++ language defines seven built-in variable types and 4 data type modifiers.</p>
+        <ol>
+            <li>bool</li>
+            <li>char</li>
+            <li>int</li>
+            <li>float</li>
+            <li>double</li>
+            <li>void</li>
+            <li>wchar_t</li>
+        </ol>
+        <p>also 4 data type modifiers</p>
+        <ol>
+            <li>signed</li>
+            <li>unsigned</li>
+            <li>short</li>
+            <li>long</li>
+        </ol>
+        <p>&nbsp;</p>
+        <hr />
+        <div id="sample-code" style="padding: 20px;">
+            <p>
+                I put this sample code together quickly to illustrate the nature of each of these data types, 
+                to see how each is stored in memory and alternate views of each.</p>
+            <p>I didn't finish the example code, but it works as is. Download and build it. Take the opportunity 
+                to review the code. Follow the logic and use the opportunity to refresh your memory if it has 
+                been a while since you've coded in C++.</p>
+            <p>Share your thoughts and questions on the Discord channel.</p>
+            <a style="color: navy;" href="/content/01/variables.cpp">download variables.cpp source code.</a>
+
+<code><pre style="padding: 30px; margin: auto; border: 1px solid;">// Exploring primitive 'built-in' data types
+
+#include &lt;iostream&gt;
+#include &lt;sstream&gt;
+#include &lt;typeinfo&gt;
+#include &lt;bitset&gt;
+
+using namespace std;
+
+template  string binary(T value) {
+    stringstream ss;
+    int szBits = sizeof(value) * 8;
+
+    // tried this... works for some cases and variable types.
+    /*while (szBits-- &gt; 0) {
+        ss &lt;&lt; ((value &gt;&gt; szBits) &amp; 1);
+        if (szBits % 8 == 0) ss &lt;&lt; ' ';
+    }*/
+    // evolved to this.
+    char* bits = reinterpret_cast(&amp;value);
+    for (size_t i = 0; i &lt; sizeof(value); ++i) {
+        ss &lt;&lt; bitset&lt;8&gt;(bits[i]) &lt;&lt; ' ';
+    }
+
+    return ss.str();
+}
+
+template  string about(T *value) {
+    stringstream ss;
+    int sz = sizeof(*value);
+    ss &lt;&lt; '\t' &lt;&lt; "type:    " &lt;&lt; typeid(*value).name() &lt;&lt; endl;
+    ss &lt;&lt; '\t' &lt;&lt; "value:   " &lt;&lt; *value &lt;&lt; endl;
+    ss &lt;&lt; '\t' &lt;&lt; "size:    " &lt;&lt; sz &lt;&lt; " bytes (" &lt;&lt; sz * 8 &lt;&lt; " bits)" &lt;&lt; endl;
+    ss &lt;&lt; '\t' &lt;&lt; "bits:    " &lt;&lt; binary(*value) &lt;&lt; endl;
+    ss &lt;&lt; '\t' &lt;&lt; "address: " &lt;&lt; hex &lt;&lt; value &lt;&lt; endl;
+    return ss.str();
+}
+
+void EnterToContinue() {
+    cout &lt;&lt; "Press [Enter] to continue...";
+    cin.get();
+    system("cls");
+}
+
+void Boolean() {
+    cout &lt;&lt; "Boolean:" &lt;&lt; endl;
+    cout &lt;&lt; "\tA boolean value can only be true or false.\n";
+    cout &lt;&lt; "\tHere's what they look like." &lt;&lt; endl &lt;&lt; endl;
+
+    bool yesNo = true;
+    cout &lt;&lt; about(&amp;yesNo) &lt;&lt; endl &lt;&lt; endl;
+
+    yesNo = false;
+    cout &lt;&lt; about(&amp;yesNo) &lt;&lt; endl &lt;&lt; endl;
+
+    bool nope = false;
+    cout &lt;&lt; about(&amp;nope) &lt;&lt; endl &lt;&lt; endl;
+
+    cout &lt;&lt; "the address for the first two examples are the same because "
+        &lt;&lt; "they are the same variable - only the value was changed." 
+        &lt;&lt; endl &lt;&lt; endl;
+
+    EnterToContinue();
+}
+
+void Character() {
+    cout &lt;&lt; "Character:" &lt;&lt; endl;
+
+    char alpha = 'A';
+    cout &lt;&lt; about(&amp;alpha) &lt;&lt; endl &lt;&lt; endl;
+
+    char numeral = '9';
+    cout &lt;&lt; about(&amp;numeral) &lt;&lt; endl &lt;&lt; endl;
+
+    char punct = ';';
+    cout &lt;&lt; about(&amp;punct) &lt;&lt; endl &lt;&lt; endl;
+
+    unsigned char number = 123;
+    cout &lt;&lt; about(&amp;number) &lt;&lt; endl &lt;&lt; endl;
+
+    cout &lt;&lt; "C++ uses an overload for the &lt;&lt; operator which interprets a char * "
+        &lt;&lt; "as the start of a null-terminated string and instead of showing the address, the "
+        &lt;&lt; "system will read to the next null value." &lt;&lt; endl &lt;&lt; endl
+        &lt;&lt; "The signed and unsigned type modifiers can be used as integer types"
+        &lt;&lt; "that are the same size as the char type." &lt;&lt; endl &lt;&lt; endl;
+
+    EnterToContinue();
+}
+
+void Integer() {
+    cout &lt;&lt; "Integer types:" &lt;&lt; endl;
+
+    int a = 123456789;
+    cout &lt;&lt; about(&amp;a) &lt;&lt; endl &lt;&lt; endl;
+
+    short int b = 123456789;
+    cout &lt;&lt; about(&amp;b) &lt;&lt; endl &lt;&lt; endl;
+
+    long int c = 123456789;
+    cout &lt;&lt; about(&amp;c) &lt;&lt; endl &lt;&lt; endl;
+
+    unsigned short int x = -55;
+    cout &lt;&lt; about(&amp;x) &lt;&lt; endl &lt;&lt; endl;
+
+    signed short int y = -55;
+    cout &lt;&lt; about(&amp;y) &lt;&lt; endl &lt;&lt; endl;
+
+    x = 55;
+    cout &lt;&lt; about(&amp;x) &lt;&lt; endl &lt;&lt; endl;
+
+    y = 55;
+    cout &lt;&lt; about(&amp;y) &lt;&lt; endl &lt;&lt; endl;
+
+    cout &lt;&lt; "Scroll to see more." &lt;&lt; endl &lt;&lt; endl;
+
+    cout &lt;&lt; "The long and short type modifiers change the size of the variable"
+        &lt;&lt; "to optimize memory usage for larger or smaller values." 
+        &lt;&lt; endl &lt;&lt; endl;
+
+    cout &lt;&lt; "Type \'int\' may default to long or short depending on the system."
+        &lt;&lt; endl &lt;&lt; endl;
+
+    cout &lt;&lt; "Values which exceed the size available are truncated! "
+        &lt;&lt; "This is a situation to be aware of." &lt;&lt; endl &lt;&lt; endl;
+
+    cout &lt;&lt; "Compare the binary equivalent of the signed and unsigned "
+        &lt;&lt; "variables assigned the same value." &lt;&lt; endl &lt;&lt; endl;
+
+
+    EnterToContinue();
+}
+
+void FloatingPoint() {
+    cout &lt;&lt; "Floating Point types are float, double, and long double:" &lt;&lt; endl;
+
+    float p = 3.14159f;
+    cout &lt;&lt; about(&amp;p) &lt;&lt; endl &lt;&lt; endl;
+    p = -p;
+    cout &lt;&lt; about(&amp;p) &lt;&lt; endl &lt;&lt; endl;
+    p = 31.4159f;
+    cout &lt;&lt; about(&amp;p) &lt;&lt; endl &lt;&lt; endl;
+    p = -p;
+    cout &lt;&lt; about(&amp;p) &lt;&lt; endl &lt;&lt; endl;
+    p = .314159f;
+    cout &lt;&lt; about(&amp;p) &lt;&lt; endl &lt;&lt; endl;
+    p = -p;
+    cout &lt;&lt; about(&amp;p) &lt;&lt; endl &lt;&lt; endl;
+
+    double L = 6.02e23;
+    cout &lt;&lt; about(&amp;L) &lt;&lt; endl &lt;&lt; endl;
+
+    long double big = 1.234e300L;
+    cout &lt;&lt; about(&amp;big) &lt;&lt; endl &lt;&lt; endl;
+
+    cout &lt;&lt; "- Floating point numbers are stored in memory according to "
+        &lt;&lt; "an IEEE(754) standard." &lt;&lt; endl
+        &lt;&lt; "- The first bit is the sign, where 0 indicates a positive "
+        &lt;&lt; "value and 1 indicates a negative value." &lt;&lt; endl
+        &lt;&lt; "- The next 8 bits are used for the exponent." &lt;&lt; endl
+        &lt;&lt; "- The remaining 23 bits are for the significant part" &lt;&lt; endl
+        &lt;&lt; "- For double precision, 64 bits are used to store a floating - "
+        &lt;&lt; "point number." &lt;&lt; endl &lt;&lt; endl;
+
+    EnterToContinue();
+}
+
+void Valueless() {}
+
+void WideCharacter() {}
+
+int menuItems()
+{
+    int selection;
+
+    cout &lt;&lt; "(main menu)" &lt;&lt; endl;
+    cout &lt;&lt; "==================================================" &lt;&lt; endl;
+    cout &lt;&lt; "The c++ standard includes 7 built-in data types:\n";
+    cout &lt;&lt; "\t 1. bool" &lt;&lt; endl;
+    cout &lt;&lt; "\t 2. char" &lt;&lt; endl;
+    cout &lt;&lt; "\t 3. int" &lt;&lt; endl;
+    cout &lt;&lt; "\t 4. float" &lt;&lt; endl;
+    cout &lt;&lt; "\t 5. double" &lt;&lt; endl;
+    cout &lt;&lt; "\t 6. void" &lt;&lt; endl;
+    cout &lt;&lt; "\t 7. wchar_t" &lt;&lt; endl &lt;&lt; endl;
+
+    cout &lt;&lt; "also 4 data type modifiers" &lt;&lt; endl;
+    cout &lt;&lt; '\t' &lt;&lt; "signed" &lt;&lt; endl;
+    cout &lt;&lt; '\t' &lt;&lt; "unsigned" &lt;&lt; endl;
+    cout &lt;&lt; '\t' &lt;&lt; "short" &lt;&lt; endl;
+    cout &lt;&lt; '\t' &lt;&lt; "long" &lt;&lt; endl;
+    cout &lt;&lt; "==================================================" &lt;&lt; endl &lt;&lt; endl;
+
+    cout &lt;&lt; "select a menu item from above to learn more: ";
+    cin &gt;&gt; selection;
+    cin.get();
+    system("cls");  // clear the screen
+    return selection;
+}
+
+void mainMenu()
+{
+    while(true) {
+        switch (menuItems()) {
+            case 1:
+                Boolean();
+                break;
+            case 2:
+                Character();
+                break;
+            case 3:
+                Integer();
+                break;
+            case 4:
+            case 5:
+                FloatingPoint();
+                break;
+            case 6:
+                Valueless();
+                break;
+            case 7:
+                WideCharacter();
+                break;
+            default:
+                cout &lt;&lt; "done." &lt;&lt; endl;
+                return;
+        }
+    }
+}
+
+int main()
+{
+    mainMenu();
+}
+</pre>
+</code>
+        </div>
+    </div>
