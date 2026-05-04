@@ -1,0 +1,12 @@
+[
+    { "id": "SLO #1", "outcome": "Understand the goals of software design" },
+    { "id": "SLO #2", "outcome": "Describe and utilize an ADT" },
+    { "id": "SLO #3", "outcome": "Use unsorted lists to implement utility routines" },
+    { "id": "SLO #4", "outcome": "Use sorted lists using an array-based implementation" },
+    { "id": "SLO #5", "outcome": "Understand and implement stack operations" },
+    { "id": "SLO #6", "outcome": "Demonstrate the effect of queue operations" },
+    { "id": "SLO #7", "outcome": "Implement linked lists as an array of records" },
+    { "id": "SLO #8", "outcome": "Demonstrate how a binary tree can be represented in an array" },
+    { "id": "SLO #9", "outcome": "Implement a heap in a nonlinked tree representation in an array" },
+    { "id": "SLO #10", "outcome": "Compare the efficiency of the sorting and searching algorithms" }
+]
