@@ -1,0 +1,4 @@
+[
+  { "id": "CLO #1", "outcome": "Design and implement fundamental data structures", "description": "Design and implement core data structures—including abstract data types (ADTs), lists (unsorted, sorted, and linked), stacks, queues, trees, and heaps—using array-based and nonlinked representations while applying sound software design principles." },
+  { "id": "CLO #2", "outcome": "Analyze and compare algorithmic efficiency", "description": "evaluate and compare the time and space efficiency of common searching and sorting algorithms, explaining how data structure choice impacts program performance and behavior." }
+]
