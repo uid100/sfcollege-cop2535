@@ -40,6 +40,7 @@
           "overview": { "title": "Module Overview", "type": "content", "source": "content/module1.html" },
           "intro": {"title": "About me","type": "discussion","source": "content/01/intro.html"},
           "variables": {"title": "Variables","type": "discussion","source": "content/01/variables.html"},
+          "ack": {"title": "Syllabus Acknowledgement","type": "discussion","source": "content/01/ack.html"},
           "reference": {"title": "Reference Types","type": "discussion","source": "content/01/reference.html"},
           "end": { "title": "End Module 1: Primitive Data Types", "type": "content", "source": "content/end-module.html"}
         }
