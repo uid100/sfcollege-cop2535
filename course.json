@@ -37,7 +37,7 @@
         "title": "Module 01 - Primitive Data Types",
         "pages": {
           "start": {"title": "PICK ME! PICK ME! ---- ( ***START HERE*** )","type": "content","source": "content/01/start.html"},
-          "overview": { "title": "Module Overview", "type": "content", "source": "content/01/module1.html" },
+          "overview": { "title": "Module Overview", "type": "content", "source": "content/module1.html" },
           "intro": {"title": "About me","type": "discussion","source": "content/01/intro.html"},
           "variables": {"title": "Variables","type": "discussion","source": "content/01/variables.html"},
           "ack": {"title": "Syllabus Acknowledgement","type": "discussion","source": "content/01/ack.html"},
@@ -48,14 +48,14 @@
       "02": {
         "title": "Module 02 - Abstract Data Types",
         "pages": {
-          "overview": { "title": "Module Overview", "type": "content", "source": "/content/02/module2.html" },
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module2.html" },
           "end": { "title": "End of Module 2: Abstract Data Types", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "03": {
         "title": "Module 03 - Searching and Sorting",
         "pages": {
-          "overview": { "title": "Module Overview", "type": "content", "source": "/content/03/module3.html" },
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module3.html" },
           "end": { "title": "End of Module 3: Searching and Sorting", "type": "content", "source": "/content/end-module.html"}
         },
         "lab": {
@@ -67,7 +67,7 @@
       "04": {
         "title": "Module 04 - Algorithm Complexity",
         "pages": {
-          "overview": { "title": "Module Overview", "type": "content", "source": "/content/04/module4.html" },
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module4.html" },
           "end": { "title": "End of Module 4: Algorithm Complexity", "type": "content", "source": "/content/end-module.html"}
         },
         "lab": {
@@ -79,7 +79,7 @@
       "05": {
         "title": "Module 05 - Pointers",
         "pages": {
-          "overview": { "title": "Module Overview", "type": "content", "source": "/content/05/module5.html" },
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module5.html" },
           "end": { "title": "End of Module 5: Pointers", "type": "content", "source": "/content/end-module.html"}
         }
       },
