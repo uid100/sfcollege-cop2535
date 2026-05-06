@@ -37,7 +37,7 @@
         "title": "Module 01 - Primitive Data Types",
         "pages": {
           "start": {"title": "PICK ME! PICK ME! ---- ( ***START HERE*** )","type": "content","source": "content/01/start.html"},
-          "overview": { "title": "Module Overview", "type": "content", "source": "content/module1.html" },
+          "overview": { "title": "Module Overview", "type": "content", "source": "content/01/module1.html" },
           "intro": {"title": "About me","type": "discussion","source": "content/01/intro.html"},
           "variables": {"title": "Variables","type": "discussion","source": "content/01/variables.html"},
           "ack": {"title": "Syllabus Acknowledgement","type": "discussion","source": "content/01/ack.html"},
@@ -48,14 +48,14 @@
       "02": {
         "title": "Module 02 - Abstract Data Types",
         "pages": {
-          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module2.html" },
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/02/module2.html" },
           "end": { "title": "End of Module 2: Abstract Data Types", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "03": {
         "title": "Module 03 - Searching and Sorting",
         "pages": {
-          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module3.html" },
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/03/module3.html" },
           "end": { "title": "End of Module 3: Searching and Sorting", "type": "content", "source": "/content/end-module.html"}
         },
         "lab": {
@@ -67,7 +67,7 @@
       "04": {
         "title": "Module 04 - Algorithm Complexity",
         "pages": {
-          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module4.html" },
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/04/module4.html" },
           "end": { "title": "End of Module 4: Algorithm Complexity", "type": "content", "source": "/content/end-module.html"}
         },
         "lab": {
@@ -79,21 +79,21 @@
       "05": {
         "title": "Module 05 - Pointers",
         "pages": {
-          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module5.html" },
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/05/module5.html" },
           "end": { "title": "End of Module 5: Pointers", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "06": {
         "title": "Module 06 - Structs and Objects",
         "pages": {
-          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module6.html" },
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/06/module6.html" },
           "end": { "title": "End of Module 6: Structs and Objects", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "07": {
         "title": "Module 07 - Liked Lists",
         "pages": {
-          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module7.html" },
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/07/module7.html" },
           "end": { "title": "End of Module 7: Linked Lists", "type": "content", "source": "/content/end-module.html"}
         },
         "lab": {
@@ -105,35 +105,35 @@
       "08": {
         "title": "Module 08 - Stacks and Queues",
         "pages": {
-          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module8.html" },
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/08/module8.html" },
           "end": { "title": "End of Module 8: Stacks and Queues", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "09": {
         "title": "Module 09 - Binary Trees",
         "pages": {
-          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module9.html" },
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/09/module9.html" },
           "end": { "title": "End of Module 9: Binary Trees", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "10": {
         "title": "Module 10 - Hashes",
         "pages": {
-          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module10.html" },
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/10/module10.html" },
           "end": { "title": "End of Module 10: Hashes", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "11": {
         "title": "Module 11 - Graphing",
         "pages": {
-          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module11.html" },
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/11/module11.html" },
           "end": { "title": "End of Module 11: Graphing", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "12": {
         "title": "Wrap-up",
         "pages": {
-          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module12.html" },
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/12/module12.html" },
           "end": { "title": "Course Wrap-up", "type": "content", "source": "/content/end-module.html" }
         }
       },
