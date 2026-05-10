@@ -49,6 +49,7 @@
         "title": "Module 02 - Abstract Data Types",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/02/module2.html" },
+          "ex": { "title": "Exercise - Climate Data Analysis", "type": "exercise", "source": "/content/02/ex-climate.html" },
           "end": { "title": "End of Module 2: Abstract Data Types", "type": "content", "source": "/content/end-module.html"}
         }
       },
@@ -56,12 +57,8 @@
         "title": "Module 03 - Searching and Sorting",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/03/module3.html" },
+          "ex": { "title": "Exercise - Array Search and Sort Algorithms", "type": "exercise", "source": "/content/03/ex-array-sort.html" },
           "end": { "title": "End of Module 3: Searching and Sorting", "type": "content", "source": "/content/end-module.html"}
-        },
-        "lab": {
-          "title": "Lab 03 - Setting Up Cloud Service Provider Accounts",
-          "taskListUrl": "https://uid100.github.io/sfcollege-cis4083/content/ex01-subscriptions/todo.json",
-          "fragmentsBase": "https://uid100.github.io/sfcollege-cis4083/content/ex01-subscriptions/"
         }
       },
       "04": {
@@ -69,17 +66,13 @@
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/04/module4.html" },
           "end": { "title": "End of Module 4: Algorithm Complexity", "type": "content", "source": "/content/end-module.html"}
-        },
-        "lab": {
-          "title": "Lab 04 - Deploying a Web Application to the Cloud",
-          "taskListUrl": "https://uid100.github.io/sfcollege-cis4083/content/ex02-webapps/todo.json",
-          "fragmentsBase": "https://uid100.github.io/sfcollege-cis4083/content/ex02-webapps/"
         }
       },
       "05": {
         "title": "Module 05 - Pointers",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/05/module5.html" },
+          "ex": { "title": "Exercise - Pointers Comparison", "type": "exercise", "source": "/content/05/ex-pointers.html" },
           "end": { "title": "End of Module 5: Pointers", "type": "content", "source": "/content/end-module.html"}
         }
       },
@@ -87,6 +80,7 @@
         "title": "Module 06 - Structs and Objects",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/06/module6.html" },
+          "ex": { "title": "Exercise - Object Sort", "type": "exercise", "source": "/content/06/ex-object-sort.html" },
           "end": { "title": "End of Module 6: Structs and Objects", "type": "content", "source": "/content/end-module.html"}
         }
       },
@@ -94,18 +88,15 @@
         "title": "Module 07 - Liked Lists",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/07/module7.html" },
+          "ex": { "title": "Exercise - Linked List Implementation", "type": "exercise", "source": "/content/07/ex-linked-list.html" },
           "end": { "title": "End of Module 7: Linked Lists", "type": "content", "source": "/content/end-module.html"}
-        },
-        "lab": {
-          "title": "Lab 07 - Deploying and Managing a Database in the Cloud",
-          "taskListUrl": "https://uid100.github.io/sfcollege-cis4083/content/ex03-dbaas/todo.json",
-          "fragmentsBase": "https://uid100.github.io/sfcollege-cis4083/content/ex03-dbaas/"
         }
       },
       "08": {
         "title": "Module 08 - Stacks and Queues",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/08/module8.html" },
+          "ex": { "title": "Exercise - Stack and Queue Implementation", "type": "exercise", "source": "/content/08/ex-stack-queue.html" },
           "end": { "title": "End of Module 8: Stacks and Queues", "type": "content", "source": "/content/end-module.html"}
         }
       },
@@ -113,6 +104,7 @@
         "title": "Module 09 - Binary Trees",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/09/module9.html" },
+          "ex": { "title": "Exercise - Binary Tree Implementation", "type": "exercise", "source": "/content/09/ex-binary-tree.html" },
           "end": { "title": "End of Module 9: Binary Trees", "type": "content", "source": "/content/end-module.html"}
         }
       },
@@ -120,6 +112,7 @@
         "title": "Module 10 - Hashes",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/10/module10.html" },
+          "ex": { "title": "Exercise - Hash Table Implementation", "type": "exercise", "source": "/content/10/ex-hash.html" },
           "end": { "title": "End of Module 10: Hashes", "type": "content", "source": "/content/end-module.html"}
         }
       },
@@ -127,6 +120,7 @@
         "title": "Module 11 - Graphing",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/11/module11.html" },
+          "ex": { "title": "Exercise - Graph Implementation", "type": "exercise", "source": "/content/11/ex-graph.html" },
           "end": { "title": "End of Module 11: Graphing", "type": "content", "source": "/content/end-module.html"}
         }
       },
