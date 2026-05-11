@@ -71,6 +71,7 @@
         "title": "Module 04 - Algorithm Complexity",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/04/module4.html" },
+          "big-o": { "title": "Big O Notation", "type": "content", "source": "/content/04/complexity.html" },
           "end": { "title": "End of Module 4: Algorithm Complexity", "type": "content", "source": "/content/end-module.html"}
         }
       },
