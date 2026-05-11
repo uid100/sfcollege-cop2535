@@ -97,6 +97,7 @@
         "title": "Module 07 - Liked Lists",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/07/module7.html" },
+          "linked-lists": { "title": "Linked Lists", "type": "content", "source": "/content/07/linked-lists.html" },
           "ex": { "title": "Exercise - Linked List Implementation", "type": "exercise", "source": "/content/07/ex-linked-list.html" },
           "end": { "title": "End of Module 7: Linked Lists", "type": "content", "source": "/content/end-module.html"}
         }
