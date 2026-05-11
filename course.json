@@ -87,6 +87,7 @@
         "title": "Module 06 - Structs and Objects",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/06/module6.html" },
+          "structs": { "title": "Structs", "type": "content", "source": "/content/06/structs.html" },
           "ex": { "title": "Exercise - Object Sort", "type": "exercise", "source": "/content/06/ex-object-sort.html" },
           "end": { "title": "End of Module 6: Structs and Objects", "type": "content", "source": "/content/end-module.html"}
         }
