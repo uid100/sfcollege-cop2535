@@ -106,6 +106,8 @@
         "title": "Module 08 - Stacks and Queues",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/08/module8.html" },
+          "stacks": { "title": "Stacks", "type": "content", "source": "/content/08/stacks.html" },
+          "queues": { "title": "Queues", "type": "content", "source": "/content/08/queues.html" },
           "ex": { "title": "Exercise - Stack and Queue Implementation", "type": "exercise", "source": "/content/08/ex-stack-queue.html" },
           "end": { "title": "End of Module 8: Stacks and Queues", "type": "content", "source": "/content/end-module.html"}
         }
