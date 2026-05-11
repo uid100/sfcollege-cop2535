@@ -49,6 +49,9 @@
         "title": "Module 02 - Abstract Data Types",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/02/module2.html" },
+          "adt": { "title": "Abstract Data Types", "type": "content", "source": "/content/02/adt.html" },
+          "arrays": { "title": "Arrays", "type": "content", "source": "/content/02/arrays.html" },
+          "vectors": { "title": "Vectors", "type": "content", "source": "/content/02/vectors.html" },
           "ex": { "title": "Exercise - Climate Data Analysis", "type": "exercise", "source": "/content/02/ex-climate.html" },
           "end": { "title": "End of Module 2: Abstract Data Types", "type": "content", "source": "/content/end-module.html"}
         }
@@ -57,6 +60,9 @@
         "title": "Module 03 - Searching and Sorting",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/03/module3.html" },
+          "search": { "title": "Searching Algorithms", "type": "content", "source": "/content/03/search.html" },
+          "sort": { "title": "Sorting Algorithms (1)", "type": "content", "source": "/content/03/sort.html" },
+          "stack-and-heap": { "title": "Sorting Algorithms (2)", "type": "content", "source": "/content/03/stack-heap.html" },
           "ex": { "title": "Exercise - Array Search and Sort Algorithms", "type": "exercise", "source": "/content/03/ex-array-sort.html" },
           "end": { "title": "End of Module 3: Searching and Sorting", "type": "content", "source": "/content/end-module.html"}
         }
