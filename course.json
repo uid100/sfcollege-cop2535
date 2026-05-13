@@ -116,6 +116,9 @@
         "title": "Module 09 - Binary Trees",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/09/module9.html" },
+          "design-patterns": { "title": "Design Patterns for Binary Trees", "type": "content", "source": "/content/09/design-patterns.html" },
+          "binary-search-trees": { "title": "Binary Search Trees", "type": "content", "source": "/content/09/binary-search-trees.html" },
+          "disc-algorithm-complexity": { "title": "Discussion - Algorithm Complexity", "type": "discussion", "source": "/content/09/disc-algorithm-complexity.html" },
           "ex": { "title": "Exercise - Binary Tree Implementation", "type": "exercise", "source": "/content/09/ex-binary-tree.html" },
           "end": { "title": "End of Module 9: Binary Trees", "type": "content", "source": "/content/end-module.html"}
         }
