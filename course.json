@@ -127,6 +127,8 @@
         "title": "Module 10 - Hashes",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/10/module10.html" },
+          "hash-func": { "title": "Using Hash Tables", "type": "content", "source": "/content/10/hash-functions.html" },
+          "hash-cpp": { "title": "Building Hash Tables in C++", "type": "content", "source": "/content/10/hash-cpp.html" },
           "ex": { "title": "Exercise - Hash Table Implementation", "type": "exercise", "source": "/content/10/ex-hash.html" },
           "end": { "title": "End of Module 10: Hashes", "type": "content", "source": "/content/end-module.html"}
         }
@@ -136,6 +138,7 @@
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/11/module11.html" },
           "ex": { "title": "Exercise - Graph Implementation", "type": "exercise", "source": "/content/11/ex-graph.html" },
+          "graph-struct": { "title": "Graph Data Structure", "type": "content", "source": "/content/11/graph-struct.html" },
           "end": { "title": "End of Module 11: Graphing", "type": "content", "source": "/content/end-module.html"}
         }
       },
