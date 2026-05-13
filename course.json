@@ -138,7 +138,7 @@
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "content/11/module11.html" },
           "ex": { "title": "Exercise - Graph Implementation", "type": "exercise", "source": "content/11/ex-graph.html" },
-          "graph-struct": { "title": "Graph Data Structure", "type": "content", "source": "content/11/graph-struct.html" },
+          "graph-struct": { "title": "Graph Data Structure", "type": "content", "source": "content/11/graph-structures.html" },
           "end": { "title": "End of Module 11: Graphing", "type": "content", "source": "content/end-module.html"}
         }
       },
